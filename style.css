@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container1 { 
+    width: 960px; 
+    margin: 0 auto;
+    background-color: white; 
+    position: relative;
+    top:100px;
+  }
+  .container{
+    width: 960px; 
+    margin: 0 auto;
+  }
+  
+  #index-image{
+    width:200px;
+    height:200px;
+    float:left;
+    margin: 15px;
+    margin-left: 0;
+  }
+  
+  #index-image-portfolio{
+    width:210px;
+    height:160px;
+    float:left;
+    margin: 15px;
+    margin-left: 0;
+  }
+  .headbackground{
+    margin: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  main{
+   background-image: url("/Basic-Portfolio/assets/images/dark_embroidery.png");
+   height: 850px;
+  }
+  body{
+     
+      font-family:'Georgia', Times, Times New Roman, serif;
+      font-size: 18px;
+    
+  }
+  .section-index{
+    height: 600px;
+    padding: 30px;
+  }
+  section{
+      height: 680px;
+      padding: 30px;  
+  }
+
+  .menu{
+    float: right;
+    list-style-type: none;
+  }
+  .menu li{
+    display: inline;
+     position: relative;
+     top:20px;
+  }
+  .menu li a {
+    text-decoration: none;
+    color:#4aaaa5;
+    padding: 5px 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+  }
+  .text1{
+  padding-right: 15px;
+  padding-top: 15px;
+  line-height: 25px;
+  color:#777777;
+  }
+  .text2{
+    padding-left: 15px;
+  }
+  .head{
+    width: 400px;
+    height: auto;
+    float:left;
+  
+  }
+  #buttonid{
+    width: 13%;
+  }
+  .sumbitarea {
+    padding: 10px;
+  }
+  input {
+    width: 100%;
+  }
+  .clearfix{
+    clear: both;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    height: 40px;
+  }
+  h2{
+    background-color: #4aaaa5;
+    width: 70%;
+    text-align: center;
+    padding: 15px;
+    
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  header{
+    height: 50px;
+  }
+  #name{
+    line-height: 30px;
+  }
+  #email{
+    line-height: 30px;
+  }
+  #message{
+    line-height: 30px;
+  }
+  .section-contact{
+    padding: 30px;
+    color:#4aaaa5;
+    color:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  #buttonid {
+    background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  #copyright{
+    padding-top: 25px;
+    font-size: 12px;
+    color:#4aaaa5
+  }
+  #contact-sign{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  #hr{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4aaaa5;
+  }
+  #seperator{
+    color: black;
+  }
+  #name1{
+    color: #4aaaa5;
+  }
+  #name2{
+    color: #4aaaa5;
+  
+  }
+  
+  
+  .portfolio-images{
+    position: relative;
+    padding-top:5px;
+    color:white;
+    width: 250px;
+    height: 180px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  
+  
+  #center-sign{
+    position: absolute;
+    bottom: 70px;
+    background-color: #4aaaa5; ;
+    width:210px;
+    height:30px;
+    padding-top:5px;
+    text-align: center;
+    
+  }
+  img{
+  width:210px;
+  height:160px;
+  }
+  @media screen and  (max-width: 768px){
+      .container1,
+      .headbackground{
+          width: 100%;
+          height: auto;
+          margin-bottom: 20px;
+         
+      }
+    main{
+        width: 100%;
+      }
+      .textmedia{
+          width: 100%;
+      }
+      #buttonid{
+        padding-right: 70px;
+    }
+  }
+  @media screen and  (max-width: 700px){
+    .container1,
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+       
+    }
+    .container{
+        width: 100%;
+    }
+  main{
+      width: 100%;
+    }
+    .textmedia{
+        width: 100%;
+    }
+    #buttonid{
+      padding-right: 70px;
+  }
+}
+@media screen and  (max-width: 508px){
+    .container1
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+       
+    }
+    .container{
+        width:100%;
+    }
+  main{
+      width: 100%;
+    }
+    .textmedia{
+        width: 100%;
+    }
+    #buttonid{
+      padding-right: 70px;
+  }
+  .menu{
+      display: inline;
+      
+  }
+  .menu li a {
+      padding: 5px 5px;
+  }
+}
