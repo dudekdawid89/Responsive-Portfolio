@@ -2,16 +2,20 @@
     box-sizing: border-box;
   }
   
-  .container1 { 
+  .mainsection{ 
     width: 960px; 
-    margin: 0 auto;
+    margin: 100px auto;
     background-color: white; 
-    position: relative;
-    top:100px;
+    /* position: relative;
+    top:100px;  */
+    padding: 30px;
+    height: 680px;
+    padding: 30px;
   }
   .container{
     width: 960px; 
     margin: 0 auto;
+    height: 50px;
   }
   
   #index-image{
@@ -32,26 +36,15 @@
   .headbackground{
     margin: 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
   }
-  main{
-   background-image: url("/Basic-Portfolio/assets/images/dark_embroidery.png");
-   height: 850px;
-  }
+
   body{
-     
+    background-image: url("/Basic-Portfolio/assets/images/dark_embroidery.png");
       font-family:'Georgia', Times, Times New Roman, serif;
       font-size: 18px;
     
   }
-  .section-index{
-    height: 600px;
-    padding: 30px;
-  }
-  section{
-      height: 680px;
-      padding: 30px;  
-  }
-
   .menu{
     float: right;
     list-style-type: none;
@@ -78,9 +71,15 @@
     padding-left: 15px;
   }
   .head{
-    width: 400px;
+    width: 300px;
     height: auto;
     float:left;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
   
   }
   #buttonid{
@@ -105,19 +104,7 @@
     text-align: center;
     height: 40px;
   }
-  h2{
-    background-color: #4aaaa5;
-    width: 70%;
-    text-align: center;
-    padding: 15px;
-    
-    color: white;
-    font-weight: 900;
-    font-size: 25px;
-  }
-  header{
-    height: 50px;
-  }
+
   #name{
     line-height: 30px;
   }
@@ -136,7 +123,7 @@
     background-color: #4aaaa5; 
     border: none;
     color: white;
-    padding: 10px 32px;
+    padding: 10px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -199,70 +186,40 @@
   width:210px;
   height:160px;
   }
-  @media screen and  (max-width: 768px){
-      .container1,
-      .headbackground{
-          width: 100%;
-          height: auto;
-          margin-bottom: 20px;
-         
-      }
-    main{
-        width: 100%;
-      }
-      .textmedia{
-          width: 100%;
-      }
-      #buttonid{
-        padding-right: 70px;
-    }
+  .textmedia{
+    width: 100%;
   }
-  @media screen and  (max-width: 700px){
-    .container1,
-    {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-       
-    }
-    .container{
-        width: 100%;
-    }
-  main{
+  @media screen and  (max-width: 980px){
+    .mainsection, .container {
       width: 100%;
-    }
-    .textmedia{
-        width: 100%;
-    }
-    #buttonid{
-      padding-right: 70px;
-  }
-}
-@media screen and  (max-width: 508px){
-    .container1
-    {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-       
-    }
-    .container{
-        width:100%;
-    }
-  main{
-      width: 100%;
-    }
-    .textmedia{
-        width: 100%;
-    }
-    #buttonid{
-      padding-right: 70px;
-  }
-  .menu{
-      display: inline;
       
+
+    }
+    @media screen and  (max-width: 768px){
+      .mainsection, .container {
+        width: 100%;
+  
+      }
+      .mainsection{
+        height: 100%;
+      }
+  
+        .head{
+          width: 200px;
+        }
   }
-  .menu li a {
-      padding: 5px 5px;
+  @media screen and  (max-width: 640px){
+   .mainsection, .container{
+      width: 100%;
+
+    }
+    .mainsection{
+      height: 100%;
+    }
   }
-}
+
+
+
+
+
+  }
